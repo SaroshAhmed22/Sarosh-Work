@@ -6,6 +6,7 @@ const App = () => {
   return (
     <div>
       <Axios_component />
+      {/* called */}
     </div>
   )
 }
