@@ -7,6 +7,7 @@ const App = () => {
     <div>
       {/* ! Axios component called */}
       <Axios_component />
+      {/* called */}
     </div>
   )
 }
