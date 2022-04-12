@@ -4,6 +4,24 @@ import axios from 'axios';
 
 const Axios_component = () => {
 
+    // ! axios component
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     const [latitude, setlatitude] = useState<string>('20.593684')
     const [longitude, setlongitude] = useState<string>("78.96288")
     const [cloud, setcloud] = useState()
@@ -66,7 +84,7 @@ const Axios_component = () => {
     return (
 
         <div className='container'>
-            <h2>Select Latituide</h2>
+            <h2>Select Latituide Using </h2>
             <select name="" id="" value={latitude} aria-label="State"
                 onChange={(e: React.ChangeEvent<HTMLSelectElement>) => selectLatitide} >
                 <option value="20.593684">20.593684</option>
@@ -96,7 +114,7 @@ const Axios_component = () => {
                     <div className="col-md-4 col-12 ml-3">
                         <div className="card" style={{}}>
                             <div className="card-body">
-                                <img src="https://imgs.search.brave.com/WnemcvzWekISE_OILrpiuxYVyhtWsq6jAurmWK5ZhK8/rs:fit:713:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5s/dmUxa2h6MWVtcG0w/bFhQcVh3aHJ3SGFF/NyZwaWQ9QXBp" alt="" />
+
                                 <br /><br />
 
                                 <h5>Latitude : <span style={{ color: 'red' }}>{latitude}</span></h5>
